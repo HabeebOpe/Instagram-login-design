@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'PT Sans', sans-serif;
+   background: linear-gradient(140deg, #FF2842 20%, #FF1E81 80%);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 100vh;
+}
+.container{
+    width: 400px;
+    /*background-color: white;*/
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.container h2{
+    margin: 20px 0;
+    color: white;
+}
+form input{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid gold;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: white;
+}
+form button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #E22E55;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+.container .login-detail{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: white;
+}
+.login-detail span{
+    font-weight: bold;
+}
+.container hr{
+    width: 200px;
+    margin: auto;
+}
+.container .login-with-facebook{
+    margin-top: 15px;
+    color: white;
+}
+.login-with-facebook h4 i{
+    font-size: 18px;
+}
+.container h3{
+    margin-top: 40px;
+    color: white;
+}
